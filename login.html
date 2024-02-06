@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        .gb {
+            border: 2px solid rebeccapurple;
+            border-radius: 20%;
+        }
+
+        body {
+            background-image: url("https://3.imimg.com/data3/NB/FK/MY-9764838/kerala-greenery-package-500x500.gif");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+        }
+
+        .navbar {
+            border-radius: 20px;
+            opacity: 0.9;
+        }
+
+        h1 {
+            font-family: cursive;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-3">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://www.shutterstock.com/image-vector/keralam-malayalam-calligraphy-translated-kerala-260nw-1822864943.jpg"
+                        alt="Logo" width="100" height="44" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Districts
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./tvm.html">Thiruvanthapuram</a></li>
+                                <li><a class="dropdown-item" href="#"> Kozhikode</a></li>
+                                <li><a class="dropdown-item" href="#">Kannur</a></li>
+                                <li><a class="dropdown-item" href="#">Ernakulam</a></li>
+                                <li><a class="dropdown-item" href="#">Thrissur</a></li>
+                                <li><a class="dropdown-item" href="#">Kollam</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <form class="d-flex" role="search">
+                    <button class="btn btn-outline-primary" type="submit"><a href="./login.html"
+                            style="text-decoration: none;">Log IN/Sign
+                            IN</a></button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="container text-center mt-4">
+        <div class="row">
+            <div class="col-12 col-lg-6 col-md-6 col-sm-6 gb">
+
+                <!-- <h1 style="color: white; background-color:#31BCF4; border-radius: 50%;padding-left: 10px;">Log in</h1> -->
+                <h1>Log IN</h1>
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress2" class="form-label">Address 2</label>
+                        <input type="text" class="form-control" id="inputAddress2"
+                            placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputCity" class="form-label">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputState" class="form-label">State</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        <label for="inputZip" class="form-label">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Check me out
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+                </form>
+
+            </div>
+            <div class=" col-12 col-lg-6 col-md-6 col-sm-6 gb">
+                <!-- <h1 style="color: white; background-color:#31BCF4; border-radius: 50%;">Sign in</h1> -->
+                <h1>Sign IN</h1>
+                <form>
+                    <div class="row mb-3">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="inputEmail3">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword3">
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-sm-10 offset-sm-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                <label class="form-check-label" for="gridCheck1">
+                                    Save password
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Kerala</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        #myVideo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+        }
+
+        .carousel-item,
+        .carousel-item>img {
+            height: 400px !important;
+            border-radius: 50px;
+            opacity: 0.9;
+        }
+
+        .navbar {
+            border-radius: 20px;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="./WhatsApp Video 2024-02-06 at 14.12.01.mp4" type="video/mp4">
+    </video>
+    <div class="container mt-3">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://www.shutterstock.com/image-vector/keralam-malayalam-calligraphy-translated-kerala-260nw-1822864943.jpg"
+                        alt="Logo" width="100" height="44" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Districts
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./tvm.html">Thiruvanthapuram</a></li>
+                                <li><a class="dropdown-item" href="#"> Kozhikode</a></li>
+                                <li><a class="dropdown-item" href="#">Kannur</a></li>
+                                <li><a class="dropdown-item" href="#">Ernakulam</a></li>
+                                <li><a class="dropdown-item" href="#">Thrissur</a></li>
+                                <li><a class="dropdown-item" href="#">Kollam</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <form class="d-flex" role="search">
+                    <button class="btn btn-outline-primary" type="submit"><a href="./login.html"
+                            style="text-decoration: none;">Log IN/Sign
+                            IN</a></button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <div class="container mt-3">
+        <div class="row car">
+            <div class="col-12 col-sm-12 col-lg-12 col-xl-12">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner ">
+                        <div class="carousel-item active">
+                            <img src="https://media.istockphoto.com/id/507959606/photo/traditional-indian-houseboat-in-kerala-india.jpg?s=612x612&w=0&k=20&c=mnAoqDsuHzUhOvW7oMHtusZC4kqFXkNeJo-1FXBxX0U="
+                                class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block tc">
+                                <h5>Alleppey House Boating</h5>
+                                <p>Floating on serene backwaters, passing through bent mangroves and beautiful
+                                    sceneries, with wafting aroma of coconuts beautiful sceneries is nothing short of a
+                                    dream escape.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://static.toiimg.com/thumb/43425856.cms?resizemode=75&width=1200&height=900"
+                                class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block tc">
+                                <h5>Munnar Trekking</h5>
+                                <p>With unrealistically breathtaking views, the Munnar Top Station Sunrise Trek takes
+                                    you to the hills of Munnar also called “The Kashmir of South India”, situated at the
+                                    confluence of three mountain streams - Muthirapuzha, Nallathanni and Kundala- have
+                                    been one of the most attractive tourist destinations in South India.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://revolvingcompass.com/wp/wp-content/uploads/2022/11/Athirapally_3.jpg"
+                                class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block tc">
+                                <h5>Athirapally waterfalls</h5>
+                                <p>It is the largest waterfall in Kerala, which stands tall at 81.5 feet. Just a short
+                                    drive from Athirapilly to the Vazhachal Falls, which is close to dense green forests
+                                    that are home to many endangered and endemic species of flora and fauna.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
